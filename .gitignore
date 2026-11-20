@@ -1,7 +1,8 @@
 node_modules/
 dist/
 .env
-.env.local
-.env.ollama
+.env.*
+!.env.example
+.vercel/
 *.tgz
 *.log
