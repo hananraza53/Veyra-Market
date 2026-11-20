@@ -1,4 +1,4 @@
-import branches from './catalog/branches.json' with { type: 'json' };
+import branchesJSON from './catalog/branches.json' with { type: 'json' };
 import names from './catalog/departmentNames.json' with { type: 'json' };
 import featuredJSON from './catalog/featured.json' with { type: 'json' };
 
