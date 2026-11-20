@@ -1,6 +1,6 @@
-import branchesJSON from './catalog/branches.json';
-import names from './catalog/departmentNames.json';
-import featuredJSON from './catalog/featured.json';
+import branches from './catalog/branches.json' with { type: 'json' };
+import names from './catalog/departmentNames.json' with { type: 'json' };
+import featuredJSON from './catalog/featured.json' with { type: 'json' };
 
 export interface Variant { id: string; label: string; price: number; stock: number; attributes: Record<string,string> }
 export interface Product {
