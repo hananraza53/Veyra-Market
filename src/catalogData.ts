@@ -1,7 +1,7 @@
 import inventory from './catalog/inventory.json' with { type: 'json' };
-import { featuredProducts, unpackProduct, type RawProduct } from './homeData';
+import { featuredProducts, unpackProduct, type RawProduct } from './homeData.js';
 
-export * from './homeData';
+export * from './homeData.js';
 
 export const products = [
   ...featuredProducts,
